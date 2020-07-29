@@ -17,3 +17,6 @@ Languages:
 It took 3 hours to create this project and do the whole edition in CSS. 
 
 This project has a different design from the original, a little more to my taste.
+
+
+To run the project you have to install the node. 
