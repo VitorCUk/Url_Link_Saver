@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ce0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23820000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c60024' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b90013' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23c7002a' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23900017' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23a20044' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23c10036' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23b8007c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239d0a5b' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23b50042' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%238d2476' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.contente{
+    box-shadow: 0px 10px 9px -2px #00000033;
+    border: 8px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-top: 250px;
+    margin: 250px auto;
+    width: 500px;
+    height: 500px;
+    background-color: white
+}
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+h1 {
+  padding: 15px;
+  text-align:center;
+  color: black;
+  margin-bottom: 50px;
+  font-size: 3.4rem;
+}
+
+input {
+  width: 100%;
+  
+  padding: 8px 16px;
+  margin-bottom: 32px;
+  
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  
+  outline: none;
+  
+  font-size: 1.6rem;
+  font-weight:300;
+}
+
+ul {
+  background: rgb(255, 255, 255);
+  
+  box-shadow: 0px 4px 8px -2px #00000033;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  
+  padding: 16px;
+  
+  font-size: 1.4rem;
+  
+}
+
+li {
+  list-style: none;
+  
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  border-bottom: 1px solid #ddd;
+}
+
+
+a {
+  display: block;
+  
+  color: #333;
+  text-decoration: none;  
+  
+  padding: 16px 0;
+  font-size: 1.8rem;
+  
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+li:first-child,
+li:last-child {
+  border: none;
+}
+
+li span {
+  cursor:pointer;
+}
